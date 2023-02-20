@@ -14,7 +14,11 @@ for (i = '0';
 i < '9' + 1; i++)
 {
 putchar((int) i);
-putchar(',');
+if (i == '9')
+{
+continue;
+}
+yputchar(',');
 putchar(' ');
 }
 putchar('\n');
