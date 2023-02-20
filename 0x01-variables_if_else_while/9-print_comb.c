@@ -18,7 +18,7 @@ if (i == '9')
 {
 continue;
 }
-yputchar(',');
+putchar(',');
 putchar(' ');
 }
 putchar('\n');
