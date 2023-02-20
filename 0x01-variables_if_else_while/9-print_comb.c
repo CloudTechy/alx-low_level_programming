@@ -2,24 +2,20 @@
 /* betty style doc for function main goes there */
 /**
 * main - Entry point
-* Description: 'print alphabet from a - z and A-Z'
+* Description: 'print alphabet from a - z'
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-char i;
-int j;
+int i;
 
 /* your code goes there */
 for (i = '0';
-i <= '9'; i++)
+i < '9' + 1; i++)
 {
-putchar(i);
-}
-for (j = 'a';
-j <= 'f'; j++)
-{
-putchar(j);
+putchar((int) i);
+putchar(',');
+putchar(' ');
 }
 putchar('\n');
 return (0);
