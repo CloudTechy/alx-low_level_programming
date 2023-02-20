@@ -18,5 +18,6 @@ i < ('z' + 1); i++)
 {
 putchar(i);
 }
+putchar('\n')
 return (0);
 }
