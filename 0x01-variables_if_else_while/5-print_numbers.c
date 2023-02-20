@@ -10,10 +10,10 @@ int main(void)
 char i;
 
 /* your code goes there */
-for (i = 0;
-i < 10; i++)
+for (i = '0';
+i < '9' + 1; i++)
 {
-putchar(i);
+putchar((int) i);
 }
 putchar('\n');
 return (0);
