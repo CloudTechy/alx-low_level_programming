@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-char i, j;
+char i;
 
 /* your code goes there */
 for (i = 'z';
