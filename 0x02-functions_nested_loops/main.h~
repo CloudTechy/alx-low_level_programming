@@ -1,0 +1,11 @@
+#ifndef main
+#define main
+
+char _putchar(char);
+
+char _putchar(char var)
+{
+putchar(var);
+}
+
+#endif
