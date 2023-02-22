@@ -17,4 +17,3 @@ lower = 1;
 }
 return (lower);
 }
-}
