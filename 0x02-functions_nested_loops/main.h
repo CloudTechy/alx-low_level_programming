@@ -1,5 +1,5 @@
 #ifndef mainn
-#define mainn
+0;276;0c#define mainn
 
 int  _putchar(char);
 void print_alphabet(void);
@@ -11,5 +11,6 @@ int print_last_digit(int);
 int _abs(int);
 void jack_bauer(void);
 void times_table(void);
+int add(int, int);
 
 #endif
