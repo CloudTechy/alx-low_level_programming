@@ -12,6 +12,10 @@ int i = 0;
 if (n > 0)
 {
 for (; i < n; i++)
+for (; j < i; j++)
+{
+_putchar(' ');
+}
 _putchar('\\');
 }
 _putchar('\n');
