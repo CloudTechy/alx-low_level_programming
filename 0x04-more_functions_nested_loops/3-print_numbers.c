@@ -10,7 +10,7 @@ char i = '0';
 
 for (; i <= '9'; i++)
 {
-putchar(i);
+_putchar(i);
 }
-putchar("\n");
+_putchar("\n");
 }
