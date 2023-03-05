@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
 * print_numbers -  An entry point
 * Description: 'prints the numbers, from 0 to 9, followed by a new line'
@@ -12,5 +12,5 @@ for (; i <= '9'; i++)
 {
 _putchar(i);
 }
-_putchar("\n");
+_putchar('\n');
 }
