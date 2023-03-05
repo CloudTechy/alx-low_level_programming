@@ -5,20 +5,14 @@
 * @n: an integer parameter
 * Description: 'draws a straight line in the terminal'
 */
-void print_line(int n)
+void main(int n)
 {
 int i = 0;
 
-if (n <= 0)
+if (n > 0)
 {
-_putchar('\n');
-}
-else
-{
-for (; i <= n; i++)
-{
+for (; i < n; i++)
 _putchar('_');
 }
 _putchar('\n');
-}
 }
