@@ -10,11 +10,11 @@ void print_square(int size)
 int i = 0;
 int j;
 
-if (n > 0)
+if (size > 0)
 {
-for (; i < n; i++)
+for (; i < size; i++)
 {
-for (j = 0; j < n; j++)
+for (j = 0; j < size; j++)
 {
 _putchar(' ');
 }
