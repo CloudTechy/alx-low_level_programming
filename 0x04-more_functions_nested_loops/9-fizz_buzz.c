@@ -4,8 +4,9 @@
 /**
 * main - main entry
 * Description: ' prints a square, followed by a new line'
+* Return: Always 0
 */
-void main(void)
+int main(void)
 {
 int i;
 
@@ -28,5 +29,6 @@ else
 printf("%d ", i);
 }
 }
-putchar('\n');
+printf("\n");
+return (0);
 }
