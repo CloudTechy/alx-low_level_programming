@@ -1,27 +1,29 @@
-#include "main.h"
 
+#include <stdio.h>
 /**
 * print_diagonal - draws a straight line in the terminal
 * @n: an integer parameter
 * Description: 'draws a straight line in the terminal'
 */
-void print_diagonal(int n)
+void main()
 {
 int i = 0;
-int j;
+int j = 0;
+int n = 10;
 
 if (n > 0)
 {
 for (; i < n; i++)
 {
-for (j = 0; j < i; j++)
+for (; j < 10; j++)
 {
-_putchar(' ');
+putchar(' ');
+ printf("%d",j);
 }
-_putchar(92);
-_putchar('\n');
+putchar(92);
+putchar('\n');
 }
 }
 else
-_putchar('\n');
+putchar('\n');
 }
