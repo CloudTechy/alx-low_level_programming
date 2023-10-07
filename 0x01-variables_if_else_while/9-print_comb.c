@@ -1,0 +1,26 @@
+#include <stdio.h>
+/* betty style doc for function main goes there */
+/**
+* main - Entry point
+* Description: 'print alphabet from a - z'
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+int i;
+
+/* your code goes there */
+for (i = '0';
+i < '9' + 1; i++)
+{
+putchar((int) i);
+if (i == '9')
+{
+continue;
+}
+putchar(',');
+putchar(' ');
+}
+putchar('\n');
+return (0);
+}
