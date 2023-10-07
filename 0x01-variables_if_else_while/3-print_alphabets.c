@@ -1,23 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
-* main - Entry point
-* Description: 'print alphabet from a - z'
-* Return: Always 0 (Success)
-*/
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-char i;
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-/* your code goes there */
-for (i = 'a';
-i < ('z' + 1); i++)
-{
-putchar(i);
+	for (i = 0; i < 52; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
-}
+
