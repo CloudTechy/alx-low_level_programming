@@ -1,5 +1,5 @@
-#ifndef
-#define
+#ifndef mainn
+#define mainn
 
 #include <stdio.h>
 
