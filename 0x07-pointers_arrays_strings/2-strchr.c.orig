@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#include "main.h"
-=======
 #include "main.h" 
->>>>>>> 1204aef
 
 /**
  * _strchr - entry function
