@@ -1,4 +1,4 @@
-#include "main.h";
+#include "main.h"
 
 /**
  * _memset - entry function
@@ -14,7 +14,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (; i < n; i++)
 		*(s + i) = b;
-	return (*(s));
+	return (s);
 
 }
 
