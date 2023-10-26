@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
  *   * @prev: previous value
  *    * @root: square root value
  *     * Return: the square root
- *      */
+ */
 int _sqrt(int prev, int root)
 {
 	if (prev > root)
