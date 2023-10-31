@@ -17,14 +17,14 @@ return (NULL);
 
 array = (int **)malloc(sizeof(int *) * height);
 if (array == NULL)
-	free(array);
-	return (NULL);
+free(array);
+return (NULL);
 for (; i < height; i++)
 {
 array[i] = (int *)malloc(sizeof(int) * width);
 if (array[i] == NULL)
-	free(array);
-	return (NULL);
+free(array);
+return (NULL);
 }
 
 for (i = 0; i < height; i++)
