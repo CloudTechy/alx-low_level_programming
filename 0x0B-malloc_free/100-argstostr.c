@@ -24,7 +24,7 @@ len++;
 }
 
 len++;
-new_str = malloc(len * sizeof(char));
+new_str = malloc(sizeof(char) * len);
 if (new_str == NULL)
 return (NULL);
 
