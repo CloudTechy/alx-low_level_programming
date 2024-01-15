@@ -10,6 +10,13 @@ size_t print_dlistint(const dlistint_t *h)
 	size_t total = 0;
 	const dlistint_t *node = h;
 
+	if (node == NULL)
+		return (total);
+
+	while (node->prev != NULL)
+		node = node->prev;
+
+
 	while (node != NULL)
 	{
 		total++;
